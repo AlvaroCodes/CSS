@@ -1,0 +1,12 @@
+div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: mymove 2s infinite;
+    animation-direction: alternate-reverse;
+  }
+  
+  @keyframes mymove {
+    from {left: 0px; background-color: blue; transform: rotate(0deg);}
+    to {left: 200px; background-color: green; transform: rotate(360deg);}
+  }

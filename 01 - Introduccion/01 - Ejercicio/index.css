@@ -1,0 +1,17 @@
+h1, h2, h3 {
+    color: #FFAE5D;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2{
+    font-size: 60%;
+}
+
+h3{ /* Se adapta al contenedor */
+    font-size: 1.2em;
+}

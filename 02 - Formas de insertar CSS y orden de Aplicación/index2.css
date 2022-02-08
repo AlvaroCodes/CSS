@@ -1,0 +1,11 @@
+:root{
+    --color-verde: #3CFF33;
+}
+
+body {
+    background-color: red;
+}
+
+.centrar {
+    text-align: center;
+}

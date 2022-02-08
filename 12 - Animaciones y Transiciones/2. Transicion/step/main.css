@@ -1,0 +1,16 @@
+/*
+Circulo que cambie de color con un hover, con step de 5 colores 
+*/
+
+div {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: red;
+    transition: background-color 3s steps(4); /* (4)+1 5 colores */
+}
+
+div:hover{
+    background-color:royalblue;
+}

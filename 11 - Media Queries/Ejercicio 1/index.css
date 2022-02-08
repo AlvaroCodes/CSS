@@ -1,0 +1,20 @@
+.adios {
+    display: none;
+}
+
+/*https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries*/
+
+/*
+Valor: landscape | portrait
+Indica cuando el dispositivo esta en modo landscape (el ancho de la pantalla es mayor al alto) o modo portrait (el alto de la pantalla es mayor al ancho).
+*/
+@media (orientation: portrait) { 
+.adios{
+    display: block;
+}
+
+.hola{
+    display: none;
+}
+    
+}

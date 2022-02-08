@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fondo {
+    padding: 200px;
+    height: 400px;
+    width: 400px;
+    background-color: #000000;
+    z-index: 0;
+}
+
+.primero{
+    z-index: 3;
+    position: absolute;
+    left: 200px;
+}
+
+.segundo{
+    z-index: 3;
+    position: absolute;
+    left: 347px;
+}
+
+.tercero {
+    z-index: 4;
+    position: absolute;
+    left: 215px;
+    box-shadow: #000000;
+}
+
+.primero-circulo{
+    z-index: 4;
+    position: absolute;
+    left: 330px;
+    top: 605px;
+    box-shadow: #000000;
+}
+
+
+.segundo-circulo{
+    z-index: 4;
+    position: absolute;
+    left: 196px;
+    top: 603px;
+    box-shadow: #000000;
+}

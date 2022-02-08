@@ -1,0 +1,7 @@
+/* Sirve para importar otros CSS. Se pueden importar clases, variables, ...*/
+@import "index2.css" screen;
+
+body h1 {
+    color: var(--color-verde);
+}
+

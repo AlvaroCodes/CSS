@@ -1,0 +1,11 @@
+.hi {
+   width: 50px;
+   height: 72px;
+   background-image: url(http://s.cdpn.io/79/sprite-steps.png);
+   animation: example 1s steps(10) infinite;
+}
+
+@keyframes example {
+    from {background-position: 0px;}
+    to {background-position: 500px; }
+}

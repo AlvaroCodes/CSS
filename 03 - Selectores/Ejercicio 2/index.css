@@ -1,0 +1,27 @@
+header li {
+    display: inline;
+    margin: 10px;
+}
+
+header li a {
+    text-decoration: none;
+}
+
+section{
+    background-color: gray;
+    border: 1px solid red;
+}
+
+section h2 {
+    color: red;
+}
+
+section ul {
+    color:white;
+}
+
+section ul li {
+    list-style: none;
+    margin: 0 10px 10px 0;
+}
+

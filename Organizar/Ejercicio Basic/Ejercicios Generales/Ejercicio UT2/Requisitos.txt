@@ -1,0 +1,19 @@
+- Incluye una sección interna para darle estilos al documento. Luego añade los estilos comunes de la página: tipo de letra Verdana, color de letra #192666, imagen de fondo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL1xwRrHDDEoStQ02pfh2bo_R8o4cxWgRLVRCfkwUsHyYSNJZEJs-kJklL-7pJC5ViXIA&usqp=CAU, color de fondo #F2F5FE).
+
+- Dale a la imagen un alto de 170px y ancho de 120px y colócala a la izquierda del primer párrafo. Mientras los otros dos párrafos se colocarán debajo
+
+- Centrar el encabezado de primer nivel justo arriba en el centro. Darle un fondo azul y color de letra blanco, su altura es de 100px. 
+
+- Igualmente centrar el contenedor y darle un ancho de la mitad de la página. 
+
+- Poner el texto de los párrafos que ocupan posición impar en negrita usando un sólo selector. Luego dale un borde visible punteado negro y con las esquinas redondeadas a todos los párrafos.
+
+- Los elementos de menú cambian su color a naranja cuando se pasa el puntero del ratón por encima.
+
+- Los elementos del menú se muestran todos en una sóla línea. Además no muestran las viñetas y están separados unos de otros por 3 veces el tamaño de la fuente actual.
+
+- Posicionar el segundo párrafo solapado por debajo de la imagen (quedaría ocultado por la imagen).
+
+- Mostrar el div columnas en 3 columnas cuando estemos por encima de 900px, en 2 cuando estemos entre 900px y 600px y en una cuando estemos por debajo de 600px.
+
+- Oculta el pie de página cuando se pase el ratón por encima, pero mantenlo siempre fijo y visible aun cuando se haga scroll.

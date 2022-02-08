@@ -1,0 +1,24 @@
+.verde{
+    color: green;
+}
+
+.azul{
+    color: blue;
+}
+.fondo-azul{
+    background-color: blue;
+}
+
+.fondo-verde{
+    background-color: green;
+}
+
+.textoverdeFondoAzul{
+    color: green;
+    background-color: blue;
+}
+
+.textoazulfondoverde{
+    color: blue;
+    background-color: green;
+}

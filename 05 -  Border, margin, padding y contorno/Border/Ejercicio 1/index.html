@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div#body {
+            margin: auto;
+            width:710px;
+        }
+        div#header {
+            margin: 10px auto 10px auto;
+            width: 710px;
+            border: solid 3px blue;
+            border-radius: 15px;
+        }
+        div#sidebar {
+            display: none;
+            border:solid 1px rgb(233, 39, 39);
+            padding-left: 15px;
+            /*clear:both;*/
+        }
+        body.sidebar-main div#footer {
+            margin:25px auto 25px auto;
+            width:710px;
+            border:solid 3px green;
+            border-radius: 15px;
+            clear: right;
+        }
+
+        body.main-sidebar div#footer {
+            margin:25px auto 25px auto;
+            width:710px;
+            border:solid 3px green;
+            border-radius: 15px;
+            clear: left;
+        }
+
+        body.main-sidebar div#main, body.sidebar-main div#main {
+            width: 490px;
+            border:solid 4px green;
+           /* clear:both;*/
+        }
+
+        body.main-sidebar div#body, body.sidebar-main div#body {
+           margin: auto;
+           width: 710px;
+           border:solid 4px #FFF;
+        }
+
+        body.main-sidebar div#sidebar, body.sidebar-main div#sidebar {
+            display:block;
+            width:200px;
+            border:solid 1px rgb(224, 25, 25);
+        }
+        body.main-sidebar div#main, body.main-sidebar div#sidebar div#sidebar {
+            float:left;
+            /*border:solid 1px rgb(29, 218, 54);*/
+            border: dotted 1px green;
+        }
+        body.sidebar-main div#main, body.sidebar-main div#sidebar {
+            float:right;
+            border:dotted 1px green;
+        }
+    </style>
+</head>
+<body class="sidebar-main">
+    <!-- <body class="main-sidebar">-->
+    <div id="header">Cabecera. RESTAURANTE: El muslito</div>
+    <div id="body">
+        <div id ="main"> Este restaurante es una de las referencias gastronómicas de esta zona. [....] </div>
+        <div id ="sidebar">Menú principal</div>
+    </div>
+    <div id="footer">Pie de página</div>
+</body>
+</html>

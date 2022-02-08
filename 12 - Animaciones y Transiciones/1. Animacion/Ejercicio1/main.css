@@ -1,0 +1,26 @@
+/*
+Mover una letra ‘p’ dentro de un <h1> poco a poco de un 
+extremo de la pantalla hasta otro e ir haciéndola más 
+grande en cada paso.
+
+*/
+
+p {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    animation: moverLetra 2s infinite;
+    animation-direction: alternate-reverse;
+  }
+  
+  /*
+  @keyframes moverLetra {
+    from {left: 0px; font-size: 1rem; transform: rotate(0deg);}
+    to {left: 400px; font-size: 4rem; transform: rotate(360deg);}
+  }
+*/
+
+@keyframes moverLetra {
+  from {left: 0px; font-size: 1rem; }
+  to {left: 800px; font-size: 4rem; }
+}

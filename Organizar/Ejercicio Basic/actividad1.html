@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+ 
+<html lang="en">
+ 
+<head>
+ 
+<meta charset="UTF-8">
+ 
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+<title>Muslito</title>
+ 
+<style>
+ 
+
+ 
+div#body {
+ 
+margin: auto;
+ 
+width:710px;
+ 
+}
+ 
+div#header {
+ 
+margin: 10px auto 10px auto;
+ 
+width: 710px;
+ 
+border: solid 3px blue;
+ 
+border-radius: 15px;
+ 
+}
+
+div#header img{
+    width: 80px;
+}
+ 
+div#sidebar {
+ 
+display: none;
+ 
+border:solid 1px rgb(233, 39, 39);
+ 
+padding-left: 15px;
+ 
+/*clear:both;*/
+ 
+}
+ 
+body.sidebar-main div#footer {
+ 
+margin:25px auto 25px auto;
+ 
+width:710px;
+ 
+border:solid 3px green;
+ 
+border-radius: 15px;
+ 
+/*clear: right;*/
+ 
+}
+ 
+
+ 
+body.main-sidebar div#footer {
+ 
+margin:25px auto 25px auto;
+ 
+width:710px;
+ 
+border:solid 3px green;
+ 
+border-radius: 15px;
+ 
+/*clear: left;*/
+ 
+}
+ 
+
+ 
+body.main-sidebar div#main, body.sidebar-main div#main {
+ 
+width: 490px;
+ 
+border:solid 4px green;
+ 
+/* clear:both;*/
+ 
+}
+ 
+
+ 
+body.main-sidebar div#body, body.sidebar-main div#body {
+ 
+margin: auto;
+ 
+width: 710px;
+ 
+border:solid 4px #FFF;
+ 
+}
+ 
+
+ 
+body.main-sidebar div#sidebar, body.sidebar-main div#sidebar {
+ 
+display:block;
+ 
+width:200px;
+ 
+border:solid 1px rgb(224, 25, 25);
+ 
+}
+ 
+body.main-sidebar div#main, body.main-sidebar div#sidebar div#sidebar {
+ 
+float:left;
+ 
+/*border:solid 1px rgb(29, 218, 54);*/
+ 
+border: dotted 5px green;
+ 
+}
+ 
+body.sidebar-main div#main, body.sidebar-main div#sidebar {
+ 
+float:right;
+ 
+border:dotted 5px green;
+ 
+
+ 
+}
+
+#header {
+    display: flex;
+    padding: 20px;
+}
+ 
+#main img{
+    width: 190px;
+}
+
+div#footer{
+    clear: both;
+}
+
+#sidebar {
+    float: left;
+}
+
+#sidebar ol li a{
+    text-decoration: none;
+}
+
+#sidebar ol li a:link {
+    color: black;
+}
+
+#sidebar ol li a:visited {
+    color: green;
+}
+
+#sidebar ol li a:hover {
+    color: orange;
+}
+
+#sidebar ol li a:active {
+    color:blueviolet;
+}
+
+#main {
+    float: right;
+    margin: 8px;
+}
+
+#body {
+    display: flex;
+}
+ 
+</style>
+ 
+</head>
+
+ 
+<body class="sidebar-main">
+ 
+<body class="main-sidebar">
+ 
+<!-- Cabecera / Header-->
+<div id="header">
+    
+    <img src="./chicken.svg" alt="Muslo de pollo">
+    <h1>El muslito</h1>
+
+
+</div>
+<!-- /header -->
+ 
+<div id="body">
+ 
+    <div id ="sidebar">
+        <p>Menú principal:</p>
+        <ol>
+            <li> <a href="#">Inicio</a></li>
+            <li> <a href="#">¿Donde estamos?</a></li>
+            <li> <a href="#"> Nuestra carta</a></li>
+            <li> <a href="#">Horarios</a></li>
+        </ol>
+    </div>
+
+<div id ="main"> 
+    <img src="./chicken2.jpg" alt="Muslo de pollo">
+</div>
+ 
+
+ 
+</div>
+ 
+<div id="footer">Pie de página</div>
+ 
+</body>
+ 
+</html>
